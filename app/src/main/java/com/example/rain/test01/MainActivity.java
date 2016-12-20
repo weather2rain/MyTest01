@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button01:
                 Toast.makeText(this, "Rain111", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(this,HomeActivity.class));
-                
+                System.out.println("haha");
                 break;
 
             case R.id.button02:
